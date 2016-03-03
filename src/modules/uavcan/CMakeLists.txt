@@ -65,8 +65,8 @@ px4_add_module(
 	SRCS
 		# Main
 		uavcan_main.cpp
-		uavcan_servers.cpp
 		uavcan_params.c
+		uavcan_clock.cpp
 
 		# Actuators
 		actuators/esc.cpp
